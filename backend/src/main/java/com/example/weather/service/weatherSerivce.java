@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class weatherSerivce {
 
-    private final String API_KEY = "232e18a38629493792940541242507";
+    private final String API_KEY = "Include Your API key";
     private final String BASE_URL = "http://api.weatherapi.com/v1/current.json?key=";
     private final String aqi = "&aqp=no";
     public WeatherResponse weatherFromAPI(String location){
